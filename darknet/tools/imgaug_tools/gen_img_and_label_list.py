@@ -28,6 +28,6 @@ def gen_img_label_list(csv_list, target_file):
     tf.write(cnt_img + ' ' + cnt_label + '\n')
 
 if __name__ == '__main__':
-    csv_list = '../../DataFountain/GLODON_objDet/train_labels.csv'
+    csv_list = '../../DataFountain/GLODON_ObjDet/train_labels.csv'
     target_file = '../../data/original_list/img_label.txt'
     gen_img_label_list(csv_list, target_file)

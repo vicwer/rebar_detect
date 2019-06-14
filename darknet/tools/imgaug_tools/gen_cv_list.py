@@ -77,7 +77,7 @@ def gen_data_aug_cv_list(cv_0, cv_1, cv_2, cv_3, cv_4, img_path):
 
 
 if __name__ == '__main__':
-    img_path = '../../data/original_list/img_label_shuffle.txt'
+    img_path = '../../data/original_list/img_label.txt'
     gen_cv_list(img_path)
 
     # cv_0 = '../../data/cv_list/cv_0.txt'

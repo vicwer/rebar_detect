@@ -135,11 +135,11 @@ def cv_img(img_path, target_path, target_txt):
 
 if __name__ == '__main__':
     img_path = '../../data/original_img/cv0123_and_aug0123.txt'
-    target_path = '../../DataFountain/GLODON_objDet/cv_img'
+    target_path = '../../DataFountain/GLODON_ObjDet/cv_img'
     target_txt = '../../data/img_list/img_label_list.txt'
     cv_img(img_path, target_path, target_txt)
 
     img_path = '../../data/original_img/cv4_and_aug4.txt'
-    target_path = '../../DataFountain/GLODON_objDet/c3s/cv_img'
+    target_path = '../../DataFountain/GLODON_ObjDet/c3s/cv_img'
     target_txt = '../../data/img_list/img_label_list_cv4aug4.txt'
     cv_img(img_path, target_path, target_txt)

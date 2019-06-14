@@ -95,7 +95,7 @@ class YOLO_Kmeans:
 
 if __name__ == "__main__":
     cluster_number = 9
-    filename = "../../data/train_list/train_list.txt"
+    filename = "../../data/original_list/img_label.txt"
 
     kmeans = YOLO_Kmeans(cluster_number, filename)
     kmeans.txt2clusters()

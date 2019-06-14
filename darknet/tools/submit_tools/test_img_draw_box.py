@@ -26,7 +26,7 @@ def gen_img_label_list(csv_list):
             print(cnt_label)
             img_and_label = cnt_img + ' ' + cnt_label
             label_res = np.array([float(j) for j in cnt_label.strip().split(' ')]).reshape(-1,4)
-            img_ = cv2.imread('../../DataFountain/GLODON_objDet/test_dataset/' + cnt_img)
+            img_ = cv2.imread('../../DataFountain/GLODON_ObjDet/test_dataset/' + cnt_img)
             h, w, _ = img_.shape
             for b in label_res:
                 font = cv2.FONT_HERSHEY_SIMPLEX
@@ -37,7 +37,7 @@ def gen_img_label_list(csv_list):
             cnt_img = img
             cnt_label = label
     label_res = np.array([float(j) for j in cnt_label.strip().split(' ')])
-    img = cv2.imread('../../DataFountain/GLODON_objDet/test_dataset/' + cnt_img)
+    img = cv2.imread('../../DataFountain/GLODON_ObjDet/test_dataset/' + cnt_img)
     for b in label:
         font = cv2.FONT_HERSHEY_SIMPLEX
         cv2.rectangle(img, (int(b[0]), int(b[1])), (int(b[2]), int(b[3])), (0,255,255), 3)

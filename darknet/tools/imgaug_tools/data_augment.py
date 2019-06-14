@@ -99,7 +99,7 @@ def flip_vertical(img_path, target_img_path, target_txt):
 
 if __name__ == '__main__':
     img_path = '../../data/data_augment/rot90_h.txt'
-    target_img_path = '../../DataFountain/GLODON_objDet/data_augment/rot90_h_v'
+    target_img_path = '../../DataFountain/GLODON_ObjDet/data_augment/rot90_h_v'
     target_txt = '../../data/data_augment/rot90_h_v.txt'
     flip_vertical(img_path, target_img_path, target_txt)
     # flip_horizontal(img_path, target_img_path, target_txt)
