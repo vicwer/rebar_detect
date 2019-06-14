@@ -1,0 +1,6 @@
+classes= 1
+train  = ./rebar_list/all_train_list.txt
+valid = ./rebar_list/test_list.txt
+test = ./rebar_list/train_list.txt
+names = data/rebar.names
+backup = rebar_model
