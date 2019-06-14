@@ -134,9 +134,9 @@ height = 1504
 ```
 
 ## 结果
-[提交结果](darknet/result.jpg)
+![提交结果](darknet/result.jpg)
 
-[检测效果](darknet/predictions.jpg)
+![检测效果](darknet/predictions.jpg)
 
 ## 其他
 1. 训练图像的尺寸必须是32的倍数
